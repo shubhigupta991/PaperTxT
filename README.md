@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./public/logo/logo-bt.png" alt="hello" width="100" >
+<img src="./public/images/logo-bt.png" alt="hello" width="100" >
 
 # PaperTxT
 We plan to create an AI which has analytical reading and answering abilities.
