@@ -1,12 +1,18 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Page1 from "./Component/Page1";
-
+import React from "react";
+import {BrowserRouter as Router,Route} from "react-router-dom";
+//Pages
+import LandingPage from "./pages/landing";
+import PdfPage from "./pages/pdf";
+import AnalysisPage from "./pages/analysis";
 function App() {
   return (
-    <div>
-      <Page1 />
-    </div>
+    <>
+       <Router>
+         <Route exact path="/" component={LandingPage}/>
+         <Route exact path="/upload" component={PdfPage}/>
+         <Route exact path="/analyze" component={AnalysisPage}/>
+       </Router>
+    </>
   );
 }
 
