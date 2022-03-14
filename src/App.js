@@ -4,6 +4,7 @@ import {BrowserRouter as Router,Route} from "react-router-dom";
 import LandingPage from "./pages/landing";
 import PdfPage from "./pages/pdf";
 import AnalysisPage from "./pages/analysis";
+
 function App() {
   return (
     <>
