@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 //components
 import Navbar from "../component/navbar.component";
 import Footer from "../component/footer.component";
+
 const LandingPage = () => {
   return (
     <>

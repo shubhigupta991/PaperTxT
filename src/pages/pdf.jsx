@@ -14,6 +14,7 @@ import { Worker } from '@react-pdf-viewer/core'; // install this library
 //components
 import Navbar from '../component/navbar.component';
 import Footer from '../component/footer.component';
+
 const PdfPage  = ()=>{
     // Create new plugin instance
   const defaultLayoutPluginInstance = defaultLayoutPlugin();

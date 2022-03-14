@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 //component
 import Navbar from "../component/navbar.component";
 import Footer from "../component/footer.component";
+
 const AnalysisPage = ()=>{
     return (
         <>
